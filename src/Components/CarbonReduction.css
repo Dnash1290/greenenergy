@@ -1,0 +1,33 @@
+/* .carbon-reduction-container p h2{color: white;} */
+
+.carbon-reduction-container{
+    max-width: 1000px;
+    background-color: var(--gray);
+    padding: 12px;
+    border-radius: 9px;
+    margin: 32px 0px;
+}
+.carbon-reduction-container p{ margin: 0px 12px; margin-bottom: 12px;}
+.carbon-reduction-container h2{margin-left: 12px;}
+.carbon-reduction-container h2:hover{
+
+    padding: 12px;
+    border-radius: 9px; 
+    width: fit-content;
+    transition: .3s;
+    background-color: var(--color-light);
+}
+
+.carbon-reduction-container img{
+    height: 300px;
+    width: 375px;
+    border-radius: 9px;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.carbon-reduction-container:hover{
+    scale: 1.03;
+    transition: .3s;
+}
+.carbon-reduction-flex{display: flex}

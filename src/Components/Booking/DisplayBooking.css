@@ -1,0 +1,10 @@
+.display-booking-container{
+    background-color: var(--green-pastel);
+    padding: 12px;
+    margin: 12px;
+    width: 400px;
+    border-radius: 9px;
+    p{
+        margin: 9px
+    }
+}

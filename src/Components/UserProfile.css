@@ -1,0 +1,34 @@
+.user-profile-container{
+    width: fit-content;
+    background-color: var(--color-light);
+    padding: 22px;
+    margin: 12px;
+    border-radius: 9px;
+}
+
+.user-profile-container p{
+    background-color: var(--gray);
+    width: 55%;
+    padding: 2px 8px;
+    border-radius: 9px;
+    margin-bottom: 0px;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.user-profile h2{
+    background-color: var(--green-pastel);
+    padding:  4px 12px;
+    border-radius: 9px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

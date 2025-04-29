@@ -1,0 +1,54 @@
+.home-banner-containter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Makes it a positioning context */
+  height: 420px;
+}
+
+.home-banner-containter h2{
+  position: absolute; /* Place h2 above the image */
+  left:74px;
+  width: 500px;
+  font-size: 52px;
+}
+
+
+.home-banner-containter img{
+  height: 420px;
+  object-fit:cover;
+  object-position: 0% 55%;
+  width: 100%;
+}
+
+/* --------------section 2 products------------ */
+
+.second-title{text-align: center; margin: 32px;}
+
+/* --------------section 3 carbon------------ */
+
+.carbon-section-container{
+  width: 1300px;
+  margin: auto;
+  margin-bottom: 32px;
+  padding-bottom:32px;
+  border-radius: 9px;
+  background-color: var(--color-light);
+  box-shadow: 1px 5px 7px black;
+
+  h2{
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+
+}
+
+.carbon-section-container img{
+  height: 350px;
+  margin: 32px;
+  border-radius: 9px;
+}
+.carbon-section-container p{margin: 32px;}
+
+.carbon-link{margin: 32px; font-size: 22px;}

@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+    background-color: var(--green-light);
+    h1{color: black;}
+}
+
+.login-link{
+    font-weight: bold;
+    color: black;
+    background-color: var(--color-light);
+    padding: 9px;
+    border-radius: 9px ;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    .header-link{color: black;}
+}
+
+a{
+    text-decoration: none;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+}

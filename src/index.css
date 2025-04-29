@@ -1,4 +1,5 @@
 body {
+  box-sizing: none;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root {
+  --green-light: rgba(63, 175, 100, 1);
+  --green-dark: rgba(65, 114, 77, 1);
+  --green-pastel: rgba(214, 250, 220, 1);
+  --blue-dark: rgba(0, 62, 173, 1);
+  --color-light: rgba(255, 223, 130, 1); /* #ffdf82 */
+  --color-dark: rgba(200, 168, 78, 1);  /* #c8a84e */
+  --gray: #9fafa1;
+}
+
+:root {
+  --font-size: 16px;
+
+}
+
+/* High contrast mode */
+.high-contrast {
+  --font-size: 24px; /* Increase font size */
+}
+
+/* Apply variable to all <p> elements */
+p, a, input  {
+  font-size: var(--font-size);
 }

@@ -1,0 +1,39 @@
+.carbon-image-containter{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.carbon-image-containter img{
+    width: 60%;
+    margin-left: 40%;
+    object-fit: cover;
+    object-position: bottom;
+    height: 400px;
+}
+
+.carbon-image-containter h2{
+    position: absolute;
+    top: 25%;
+    margin-left: 72px;
+    font-size: 52px;
+    max-width: 600px;
+}
+
+.carbon-component-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    min-width: 1700px;
+    margin: 0px 72px;
+}
+
+
+
+.carbon-component-container img{
+    height: 500px;
+}
+
+.row-flex{
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 32px;
+    margin-top: 12px;
+    background-color: var(--green-light);
+    p, h1{margin: 0;}
+}
+
+
+
