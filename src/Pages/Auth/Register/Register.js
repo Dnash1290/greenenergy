@@ -21,7 +21,7 @@ export default function Register(){
             surname: Surname,      
         }
 
-       axios.post("http://localhost:3001/auth/register", payload)
+       axios.post("https://rolsa-technologies-backend-iycg.onrender.com/auth/register", payload)
        .then(
             response=>{alert(JSON.stringify(response))
             navigator("/auth/login")
