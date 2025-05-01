@@ -12,7 +12,7 @@ export default function Login(e){
 
     function login_form(e){
         e.preventDefault()
-        const ENDPOINT = "http://localhost:3001/auth/login"
+        const ENDPOINT = "https://rolsa-technologies-backend-iycg.onrender.com//auth/login"
         let payload ={
             username: Username,
             password: Password
