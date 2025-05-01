@@ -16,8 +16,8 @@ export default function UserDashboard(){
     const tokenData = JSON.parse(localStorage.getItem("token"));
     console.log(tokenData.booking);
     const [BookingDataList, SetBookingDataList] = useState(tokenData.booking || "no booking yet");
-    const ENDPOINT = "http://localhost:3001/booking/booking"
-    const ENDPOINT_get = "http://localhost:3001/booking/getBooking"
+    const ENDPOINT = "https://rolsa-technologies-backend-iycg.onrender.com/booking/booking"
+    const ENDPOINT_get = "https://rolsa-technologies-backend-iycg.onrender.com/booking/getBooking"
     // console.log(reason, date, time, bookingType);
     let user = JSON.parse(localStorage.getItem("token"));
 
