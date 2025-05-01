@@ -13,7 +13,7 @@ export default function ForgotPassword(){
     const [Error, setError] = useState("")
 
     function change_password(){
-        const ENDPOINT = "http://localhost:3001/auth/forgotpassword"
+        const ENDPOINT = "https://rolsa-technologies-backend-iycg.onrender.com/auth/forgotpassword"
         let payload ={
             username: Username,
             password: Password,
